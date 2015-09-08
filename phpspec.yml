@@ -1,0 +1,6 @@
+suites:
+    default:
+        namespace: PHAProxy\Core
+        psr4_prefix: PHAProxy\Core
+
+formatter.name: pretty

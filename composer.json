@@ -1,0 +1,25 @@
+{
+    "name": "phaproxy/core",
+    "description": "PHAProxy Core Entities",
+    "type": "library",
+    "require-dev": {
+        "phpspec/phpspec": "~2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michał Brzuchalski",
+            "email": "michal.brzuchalski@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "PHAProxy\\Core\\": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
